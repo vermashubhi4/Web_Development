@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+
+            /* Padding/marginn can also be given as padding: top right bottom left */
+            /* padding: 45px 56px 67px 78px; */
+
+            /* Padding can also be given as padding: y x */
+            /* padding: 32px 76 px; */
+
+            /* Another way to give padding / margin */
+            /* padding-top: 19px;
+            padding-right: 11px;
+            padding-bottom: 12px;
+            padding-left: 23px; */
+
+            border: 2px solid indigo;
+            background-color: lavender;
+            padding: 34px 19px; /*Applies to all the 4 directions*/
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Heading 1</h3>
+        <p>Para 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit debitis at iusto.</p>
+    </div>
+    <div class="container">
+        <h3>Heading 2</h3>
+        <p>Para 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A odit distinctio veniam.</p>
+    </div>
+    <div class="container">
+        <h3>Heading 3</h3>
+        <p>Para 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum corporis minus?</p>
+    </div>
+</body>
+</html>

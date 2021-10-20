@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Forms Tutorial</h3>
+    <form action="file.php"></form>
+    <div>
+        <label for="username">Name</label>
+        <input type="text" name="my_name" id="username" placeholder="eg-John">
+    </div>
+    <br>
+    <div>
+        <label for="role">Role</label>
+        <input type="text" name="my_role" id="role">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="my_email" id="email">
+    </div>
+    <br>
+    <div>
+        Date of Birth: <input type="date" name="my_dob" id="date">
+        <!-- <br>
+        <input type="datetime" name="" id="">
+        <br>
+        <input type="datetime-local" name="" id=""> -->
+    </div>
+    <br>
+    <div>
+        Age: <input type="number" name="my_age" id="age">
+    </div>
+    <br>
+    <br>
+    Are You Eligible? <input type="checkbox" name="my_eligibility" id="eligible" checked disabled>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="myGender" id=""> &nbsp; Female: <input type="radio" name="myGender" id="">
+    </div>
+    <br>
+    <div>
+        Write about Yourself:
+        <br>
+        <textarea name="about_youself" id="about_youself" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="car">Car</label>
+        <select name="my_car" id="car">
+            <option value="swift" >Swift</option>
+            <option value="nano" selected>Nano</option>
+            <option value="maruti" >Maruti</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="SUBMIT NOW">
+    </div>
+    <div>
+        <input type="reset" value="RESET NOW">
+    </div>
+    
+    
+    
+</body>
+</html>
